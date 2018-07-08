@@ -1,0 +1,37 @@
+<view class="classify">
+   <view wx:for="{{classifyList}}" class="{{current==index?'on':''}}" data-current="{{index}}" bindtap="currentChange">{{item}}</view>
+</view>
+<swiper style="height:{{swiperHeight}}px;" current="{{current}}" bindchange="swiperChange">
+
+        <swiper-item>
+ 
+                <navigator url="/pages/sendTask/mySendDetail" class="send-item" wx:for="{{itemData}}">
+                
+                    <image src="/assets/images/icon-pengyouquan.png" class="main-img" />
+                    <view>
+                        <view class="title">祁玲红茶世界杯情怀</view>
+                        <view class="con">提交者：小情绪</view>
+                        <view class="date">时间：2018/7/7 16:47:25</view>
+                    </view>
+                        <text>进行中</text>                   
+                </navigator>                     
+        </swiper-item>
+        
+        <swiper-item>            
+                <view class="send-item" wx:for="{{itemData2}}">
+                    <image src="/assets/images/icon-pengyouquan.png" class="main-img" />
+                    <view>
+                        <view class="title">祁玲红茶世界杯情怀</view>
+                        <view class="con">提交者：小情绪</view>
+                        <view class="date">时间：2018/7/7 16:47:25</view>
+                    </view>
+                    <navigator url="/pages/sendTask/mySendDetail">
+                        去审核
+                        <image src="/assets/images/icon-right-arrow.png" />
+                    </navigator>
+                </view>
+              
+        </swiper-item>
+
+    
+</swiper>

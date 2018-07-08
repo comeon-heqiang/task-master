@@ -1,0 +1,68 @@
+<view class="top-banner">
+    <image src="/assets/images/banner-task.jpg" />
+</view>
+<swiper class="nav-classify" indicator-dots="{{false}}" autoplay="{{false}}" interval="{{5000}}" duration="{{500}}" display-multiple-items="{{5}}">
+    <block wx:for="{{nav}}">
+        <swiper-item>
+            <image src="{{item.imgUrl}}" />
+            {{item.text}}
+        </swiper-item>
+    </block>
+</swiper>
+<!-- <scroll-view scroll-x="{{true}}" class="nav-classify">
+    <view wx:for="{{nav}}">
+        <navigator>
+            <image src="{{item.imgUrl}}" />
+            {{item.text}}
+        </navigator>
+    </view>
+
+</scroll-view> -->
+<!-- 兑换商品推荐 -->
+<view class="recommend">
+    <view class="title">
+        兑换商品
+        <navigator url="/pages/products">更多 ></navigator>
+    </view>
+    <scroll-view scroll-x class="recommend-scroll">
+        <view class="recommend-swiper" wx:for="{{products}}" wx:key="{{index}}">
+            <image class="swiper-image" src="{{item.imgUrl}}" />
+            <view class="name">{{item.name}}</view>
+            <view class="integral">积分：{{item.integral}}</view>
+        </view>
+    </scroll-view>
+    <!-- <swiper class="recommend-swiper" indicator-dots="{{false}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}" display-multiple-items="{{3}}">
+        <block wx:for="{{products}}">
+            <swiper-item>
+                <image class="swiper-image" src="{{item.imgUrl}}" mode="widthFix"/>
+                <view class="name">{{item.name}}</view>
+                <view class="integral">积分：{{item.integral}}</view>
+            </swiper-item>
+        </block>
+    </swiper> -->
+</view>
+<!-- 任务列表 -->
+<view class="task">
+    <view class="title">
+        热门任务
+        <navigator url="/pages/products">更多 ></navigator>
+    </view>
+    <scroll-view scroll-x="{{true}}" class="task-classify">
+        <view>金融</view>
+        <view>汽车</view>
+        <view>美容</view>
+        <view>部落</view>
+        <view>IT</view>
+    </scroll-view>
+    <view class="task-list">
+        <view class="task-item" wx:for="{{taskList}}">
+            <image src="/assets/images/renwu.png" class="taskImg" />
+            <view class="main">
+                <view class="task-title">{{item.title}}</view>
+                <view class="intro">{{item.intro}}</view>
+                <view class="other">佣金：{{item.integral}}积分 人数：{{item.num}}</view>
+            </view>
+            <navigator url="/pages/index/taskDetail">查看</navigator>
+        </view>
+    </view>
+</view>

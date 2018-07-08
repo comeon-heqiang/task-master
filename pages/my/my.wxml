@@ -1,0 +1,66 @@
+<view class="my-header">
+    <view class="my-info">
+        <view>
+            <image src="/assets/images/icon-income.png" />
+            收益
+        </view>
+        <view class="user">
+            <image src="/assets/images/userimg.png" />
+        </view>
+        <view>
+            <image src="/assets/images/icon-integral.png" />
+            积分
+        </view>
+    </view>
+    <view class="info">
+        <view>100</view>
+        <view class="name">贺强</view>
+        <view>500</view>
+    </view>
+</view>
+<!-- 状态 -->
+<view class="state">  
+    <navigate>
+        <image src="/assets/images/icon-pay.png" />
+        待付款
+    </navigate>
+    <navigate>
+        <image src="/assets/images/icon-send.png" />
+        待发货
+    </navigate>
+    <navigate>
+        <image src="/assets/images/icon-deliver.png" />
+        待收货
+    </navigate>
+    <navigate>
+        <image src="/assets/images/icon-shop2.png" />
+        已完成
+    </navigate>
+    <navigate>
+        <image src="/assets/images/icon-sponsor.png" />
+        退款售后
+    </navigate>
+</view>
+
+<view class="list">
+    <navigator >
+        <image src="/assets/images/icon-help3.png" />
+        任务帮助
+    </navigator>
+    <navigator >
+        <image src="/assets/images/icon-mytask.png" />
+        我的任务
+    </navigator>
+    <navigator >
+        <image src="/assets/images/icon-shuju.png" />
+        我的数据
+    </navigator>
+    <navigator url="/pages/sendTask/sendTask">
+        <image src="/assets/images/icon-farenwu.png" />
+        发任务
+    </navigator>
+    <navigator >
+        <image src="/assets/images/icon-chongzhi.png" />
+        充值中心
+        </navigator >
+</view>

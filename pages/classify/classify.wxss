@@ -1,0 +1,19 @@
+.classify-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.classify-list view{
+    width: 25%;
+    font-size: 28rpx;
+    text-align: center;
+    margin-bottom: 40rpx;
+}
+.classify-list view image{
+    display: block;
+    margin: 20rpx auto;
+    width: 60rpx;
+    height: 60rpx;
+}
+page{
+    background: none;
+}

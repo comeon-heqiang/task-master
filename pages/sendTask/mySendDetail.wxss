@@ -1,0 +1,95 @@
+.detail {
+  margin-top: 40rpx;
+  padding-top: 40rpx;
+  background: #fff;
+}
+.detail-item {
+  margin: 0 40rpx;
+  display: flex;
+  flex-wrap: wrap;
+ margin-bottom: 40rpx;
+  /* align-items: center; */
+}
+.detail-item .text {
+  width: 120rpx;
+  margin-right: 10px;
+  font-size: 28rpx;
+  text-align: right;
+  color: #606266;
+  line-height: 50rpx;
+
+}
+.detail-item .date {
+    color: #606266;
+  line-height: 50rpx;
+  font-size: 28rpx;
+}
+
+.detail-item input {
+  flex: 1;
+  font-size: 28rpx;
+  border: 1px solid #dcdfe6;
+  line-height: 60rpx;
+  height: 60rpx;
+  border-radius: 4px;
+  outline: none;
+  padding: 0 30rpx;
+}
+.detail-item textarea {
+  
+ flex:1;
+  font-size: 28rpx;
+  border-radius: 4px;
+  outline: none;
+  padding:20rpx 30rpx;
+  border: 1px solid #dcdfe6;
+  height: 120rpx;
+}
+
+.detail-item .pic{
+    margin-top: 40rpx;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.detail-item .pic image{
+    width: 210rpx;
+    height: 210rpx;
+    
+    flex: 1;
+}
+.detail-item .pic .btn-upload{
+  border: 1px solid #dcdfe6;
+  flex: 1;
+  text-align: center;
+  line-height: 210rpx;
+  font-size: 32rpx;
+  color: #606266;
+}
+.btn{
+    /* position:fixed;
+    bottom:20rpx;
+    left:40rpx;
+    right:40rpx; */
+    width:calc( 100% - 120rpx);
+    margin-left: 140rpx;
+    display: flex;
+}
+.btn view{
+  flex: 1;   
+    
+color:#fff;
+background:#409eff;
+text-align:center;
+border-radius:5px;
+font-size:30rpx;
+line-height:1;
+padding:23rpx 40rpx;
+
+}
+.btn view+view{
+    margin-left: 20rpx;    
+    color: #606266;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+}

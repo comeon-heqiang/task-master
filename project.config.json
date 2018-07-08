@@ -1,0 +1,81 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.1.1",
+	"appid": "touristappid",
+	"projectname": "%E4%BB%BB%E5%8A%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 6,
+			"list": [
+				{
+					"id": -1,
+					"name": "任务分类",
+					"pathName": "pages/classify/classify",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/my/my",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "发任务",
+					"pathName": "pages/sendTask/sendTask",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的发布",
+					"pathName": "pages/sendTask/mySend",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "任务详情",
+					"pathName": "pages/sendTask/mySendDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "分享任务发布",
+					"pathName": "pages/sendTask/mySendDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "首页任务详情",
+					"pathName": "pages/index/taskDetail"
+				}
+			]
+		}
+	}
+}

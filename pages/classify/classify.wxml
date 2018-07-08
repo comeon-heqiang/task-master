@@ -1,0 +1,6 @@
+<view class="classify-list">
+    <view wx:for="{{classifyData}}">
+        <image src="{{item.imgUrl}}" />
+        {{item.text}}
+    </view>
+</view>

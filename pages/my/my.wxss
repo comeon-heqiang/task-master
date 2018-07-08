@@ -1,0 +1,90 @@
+
+.my-header{
+    background: #32c1ed;   
+    padding: 40rpx 0; 
+}
+.my-info{   
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+   
+}
+.my-info view{
+    flex:1;
+    font-size: 28rpx;
+    color: #fff;
+    text-align: center;
+}
+.my-info view image{
+    display: block;
+    margin: 20rpx auto 10rpx;
+    width: 40rpx;
+    height: 40rpx;    
+}
+.my-info .user{
+    flex: 3;
+}
+.my-info .user image{     
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.info{
+    display: flex;    
+    margin-top: 20rpx;
+}
+.info view{
+    flex: 1;
+    text-align: center;
+    font-size: 38rpx;
+    color: #fff;
+}
+.info .name{
+    flex: 3;
+}
+
+.state{
+    display: flex;
+    background: #fff;
+    padding: 20rpx 0;
+    margin-top: 20rpx;
+}
+.state navigate{
+    flex: 1;
+    text-align: center;
+    font-size: 28rpx;
+    color: #666;
+}
+.state navigate image{
+    display: block;
+    margin: 0 auto 20rpx;
+    width: 50rpx;
+    height: 50rpx;
+    
+}
+.list{
+    background: #fff;
+    padding: 20rpx;
+    margin-top: 20rpx;
+    color: #666;
+    
+}
+.list navigator{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f2f2f2;
+    margin-bottom: 20rpx;
+    padding-bottom: 20rpx;
+    font-size: 28rpx;
+}
+.list navigator:last-child{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.list navigator image{    
+    width: 50rpx;
+    height: 50rpx;
+    margin-right: 30rpx;
+}

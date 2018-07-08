@@ -1,0 +1,85 @@
+.classify{
+    display: flex;
+    margin: 40rpx;
+    border: 1px solid #32c1ed;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.classify view{
+    flex: 1;
+    font-size: 28rpx;
+    text-align: center;
+    line-height: 60rpx;   
+    color: #32c1ed;
+    background: #fff;
+}
+.classify view:first-child{
+    border-right: 1px solid #32c1ed;
+}
+.classify view.on{
+    background: #32c1ed;
+    color: #fff;
+}
+.send-header {
+    background: #32c1ed;
+    padding: 100rpx 60rpx;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 36rpx;
+}
+
+.send-header view {
+    font-size: 40rpx;
+    font-weight: bold;
+}
+
+/* .send {
+    position: relative;
+    top: -35px;
+} */
+
+.send-item {
+    display: flex;
+    align-items: center;
+    padding: 40rpx;
+    margin: 0 40rpx;
+    border-bottom: 20rpx solid #f2f2f2;
+    background: #fff;
+}
+
+.send-item .main-img {
+    width: 120rpx;
+    height: 100rpx;
+    margin-right: 40rpx;
+}
+
+.send-item>view{
+    flex: 2;
+}
+
+.send-item .title {
+    color: #414344;
+    font-size: 32rpx;
+}
+
+.send-item .con {
+    font-size:28rpx;
+    color:#898b8d;
+    margin:8rpx 0 15rpx;
+    
+}
+.send-item .date{
+    font-size: 24rpx;
+    color: #898b8d;
+}
+.send-item text{
+    color: #32c1ed;
+    font-size: 28rpx;    
+    line-height: 1;
+}
+.send-item text image{
+    width: 30rpx;
+    height: 30rpx;   
+    vertical-align: middle;
+}
