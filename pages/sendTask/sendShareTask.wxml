@@ -1,0 +1,49 @@
+<view class="detail">
+    <view class="detail-item">
+        <view class="text">主题</view>
+        <input placeholder="" type="text" />
+    </view>
+    <view class="detail-item">
+        <view class="text">发布者</view>
+        <input placeholder="" type="text" />
+    </view>
+    <view class="detail-item">
+        <view class="text">积分</view>
+        <input placeholder="" type="text" />
+    </view>
+    <view class="detail-item">
+        <view class="text">任务人数</view>
+        <input placeholder="" type="text" />
+    </view>
+    <view class="detail-item">
+        <view class="text">任务文案</view>
+        <textarea placeholder=""></textarea>
+    </view>
+    <view class="detail-item">
+        <view class="text">任务图片</view>
+        <view class="pic">
+            <block wx:for="{{picData}}">
+                <image src="{{item}}" />
+            </block>
+            <view class="btn-upload" bind:tap="uploadFile">上传截图</view>
+        </view>
+    </view>
+    <view class="detail-item">
+        <view class="text">备注</view>
+        <textarea placeholder=""></textarea>
+    </view>
+    <view class="detail-item">
+        <view class="text">提交图片</view>
+        <view class="pic">
+            <block wx:for="{{picData}}">
+                <image src="{{item}}" />
+            </block>
+            <view class="btn-upload" bind:tap="uploadFile">上传截图</view>
+        </view>
+    </view>
+    <view class="detail-item">
+        <view class="btn">
+            <view>发布任务</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,34 @@
+<view class="detail">
+    <view class="detail-item">
+        <view class="text">主题</view>
+        <view class="approval-value">祁玲红茶世界杯</view>
+    </view>
+    <view class="detail-item">
+        <view class="text">发布者</view>
+        <view class="approval-value">小情绪</view>
+    </view> 
+    <view class="detail-item">
+        <view class="text">提交时间</view>
+        <view class="approval-value">2018/07/09 11:57:25</view>
+    </view>
+    <view class="detail-item">
+        <view class="text">备注</view>
+        <textarea placeholder="">
+            备注备注备注备注备注备注备注备注备注备注备注
+        </textarea>
+    </view>
+    <view class="detail-item">
+        <view class="text">提交图片</view>
+        <view class="pic">
+            <block wx:for="{{picData}}">
+                <image src="{{item}}" />
+            </block>          
+        </view>
+    </view>
+    <view class="detail-item">
+        <view class="btn">
+            <view>审核通过</view>
+            <view>不通过</view>     
+        </view>
+    </view>
+</view>

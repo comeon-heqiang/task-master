@@ -2,6 +2,7 @@
   margin-top: 40rpx;
   padding-top: 40rpx;
   background: #fff;
+  overflow: hidden;
 }
 .detail-item {
   margin: 0 40rpx;
@@ -54,9 +55,12 @@
 }
 .detail-item .pic image{
     width: 210rpx;
-    height: 210rpx;
-    
+    height: 210rpx;    
     flex: 1;
+    margin-right: 10rpx;
+}
+.detail-item .pic image:last-child{
+  margin-right: 0;
 }
 .detail-item .pic .btn-upload{
   border: 1px solid #dcdfe6;
@@ -71,13 +75,12 @@
     bottom:20rpx;
     left:40rpx;
     right:40rpx; */
-    width:calc( 100% - 120rpx);
-    margin-left: 140rpx;
+    width:100%;    
     display: flex;
+      justify-content: center;
 }
 .btn view{
-  flex: 1;   
-    
+  width: 35%;    
 color:#fff;
 background:#409eff;
 text-align:center;
@@ -85,10 +88,10 @@ border-radius:5px;
 font-size:30rpx;
 line-height:1;
 padding:23rpx 40rpx;
-
+border: 1px solid #409eff
 }
-.btn view+view{
-    margin-left: 20rpx;    
+.btn view+view{    
+  margin-left: 40rpx;
     color: #606266;
     background: #fff;
     border: 1px solid #dcdfe6;

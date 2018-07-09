@@ -47,7 +47,7 @@
         <image src="/assets/images/icon-help3.png" />
         任务帮助
     </navigator>
-    <navigator >
+    <navigator url="/pages/my/myTask">
         <image src="/assets/images/icon-mytask.png" />
         我的任务
     </navigator>

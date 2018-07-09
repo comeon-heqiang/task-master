@@ -54,7 +54,7 @@
     margin-right: 40rpx;
 }
 
-.send-item>view{
+.send-item .con{
     flex: 2;
 }
 
@@ -63,22 +63,22 @@
     font-size: 32rpx;
 }
 
-.send-item .con {
+ .send-item .con {
     font-size:28rpx;
     color:#898b8d;
     margin:8rpx 0 15rpx;
     
-}
+} 
 .send-item .date{
     font-size: 24rpx;
     color: #898b8d;
 }
-.send-item text{
+.send-item .text{
     color: #32c1ed;
     font-size: 28rpx;    
     line-height: 1;
 }
-.send-item text image{
+.send-item .text image{
     width: 30rpx;
     height: 30rpx;   
     vertical-align: middle;

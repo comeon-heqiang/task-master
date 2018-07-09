@@ -5,7 +5,7 @@
 
         <swiper-item>
  
-                <navigator url="/pages/sendTask/mySendDetail" class="send-item" wx:for="{{itemData}}">
+                <view url="/pages/sendTask/mySendDetail" class="send-item" wx:for="{{itemData}}">
                 
                     <image src="/assets/images/icon-pengyouquan.png" class="main-img" />
                     <view class="con">
@@ -13,12 +13,12 @@
                         <view class="con">提交者：小情绪</view>
                         <view class="date">时间：2018/7/7 16:47:25</view>
                     </view>
-                        <view class="text">进行中</view>                   
-                </navigator>                     
+                        <view class="text">审核中</view>                   
+                </view>                     
         </swiper-item>
         
         <swiper-item>            
-                <navigator url="/pages/sendTask/approval" class="send-item" wx:for="{{itemData2}}">
+                <view url="/pages/sendTask/approval" class="send-item" wx:for="{{itemData2}}">
                     <image src="/assets/images/icon-pengyouquan.png" class="main-img" />
                     <view class="con">
                         <view class="title">祁玲红茶世界杯情怀</view>
@@ -26,10 +26,9 @@
                         <view class="date">时间：2018/7/7 16:47:25</view>
                     </view>
                     <view class="text">
-                        去审核
-                        <image src="/assets/images/icon-right-arrow.png" />
+                        已完成                        
                     </view>
-                </navigator>
+                </view>
               
         </swiper-item>
 

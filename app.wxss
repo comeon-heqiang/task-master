@@ -1,4 +1,13 @@
 /**app.wxss**/
+.color1{
+
+}
+.color2{
+  color: #ff3c25!important;
+}
+.color3{
+  
+}
 .container {
   height: 100%;
   display: flex;
@@ -12,7 +21,7 @@ view,text{
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 32rpx;
+  font-size: 28rpx;
 }
 page{
   background: #f2f2f2;

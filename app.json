@@ -2,13 +2,18 @@
   "pages": [
     "pages/index/index",
     "pages/index/taskDetail",
-    "pages/logs/logs",
+    "pages/index/firendTask",   
     "pages/shop/shop",
     "pages/classify/classify",
     "pages/my/my",
+    "pages/my/myTask",
     "pages/sendTask/sendTask",
     "pages/sendTask/mySend",
-    "pages/sendTask/mySendDetail"
+    "pages/sendTask/mySendDetail",
+    "pages/sendTask/approval",
+    "pages/sendTask/sendDetail",
+    "pages/sendTask/sendDownTask",
+    "pages/sendTask/sendShareTask"
     
   ],
   "window": {

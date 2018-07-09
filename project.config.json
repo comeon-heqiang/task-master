@@ -32,7 +32,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 6,
+			"current": -1,
 			"list": [
 				{
 					"id": -1,
@@ -47,8 +47,8 @@
 					"query": ""
 				},
 				{
-					"id": -1,
-					"name": "发任务",
+					"id": 2,
+					"name": "我要发任务",
 					"pathName": "pages/sendTask/sendTask",
 					"query": ""
 				},
@@ -73,7 +73,32 @@
 				{
 					"id": -1,
 					"name": "首页任务详情",
-					"pathName": "pages/index/taskDetail"
+					"pathName": "pages/index/taskDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "朋友圈任务详情",
+					"pathName": "pages/index/firendTask",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我要发任务表单",
+					"pathName": "pages/sendTask/sendDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "待审核任务",
+					"pathName": "pages/sendTask/approval",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的任务",
+					"pathName": "pages/my/myTask",
+					"query": ""
 				}
 			]
 		}

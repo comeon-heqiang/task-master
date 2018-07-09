@@ -12,12 +12,21 @@
     <view class="sponsor">发布者：祁玲红茶</view>
 </view>
 <view class="item">
-    <view class="text">下载链接</view>
-    <input value="http:www.baidu.com" class="down-link" />
+    <view class="text">分享文案</view>
+    <view class="share-text">除了钞票，我们承印一切。除了钞票，我们承印一切。除了钞票，我们承印一切。</view>
+    <view class="share-sponsor">--尼古拉斯~赵四</view>
 </view>
 <view class="item">
-    <view class="text">下载说明</view>
-    <view class="explain">下载并完成注册账号，用户账号界面截图即可</view>
+    <view class="text">分享图片</view>
+    <view class="share-pics">
+        <image src="/assets/images/pro1.jpg" />
+        <image src="/assets/images/pro1.jpg" />
+        <image src="/assets/images/pro1.jpg" />
+        <image src="/assets/images/pro1.jpg" />
+        <image src="/assets/images/pro1.jpg" />
+        <image src="/assets/images/pro1.jpg" />
+    </view>
+<view class="btn-down">下载图片</view>
 </view>
 <view class="item">
     <view class="text">截图案例</view>
@@ -52,5 +61,5 @@
     <view>3.使用任务文案与任务图片发一条朋友圈</view>
     <view>4.朋友圈发布完成后30分钟，截图该条朋友圈并提交截图</view>
     <view class="color2">注：任务完成审核将按照任务提交时间判断</view>
-    <navigator >详细说明</navigator>
+    <navigator>详细说明</navigator>
 </view>

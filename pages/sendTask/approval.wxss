@@ -1,0 +1,4 @@
+@import '/pages/sendTask/mySendDetail.wxss';
+.approval-value{
+    color: #606266;
+}

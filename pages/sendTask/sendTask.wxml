@@ -3,29 +3,29 @@
     <view>201</view>
 </view>
 <view class="send">
-    <view class="send-item">
+    <navigator url="/pages/sendTask/sendDetail" class="send-item">
         <image src="/assets/images/icon-pengyouquan.png" />
         <view>
             <view class="title">发朋友圈任务</view>
             <view class="con">该任务参与者将会将您发布的图片及文案发至自己的朋友圈即完成任务</view>
         </view>
-    </view>
-    <view class="send-item">
+    </navigator>
+    <navigator  url="/pages/sendTask/sendShareTask" class="send-item">
         <image src="/assets/images/icon-share3.png" />
         <view>
             <view class="title">分享任务</view>
             <view class="con">该任务参与者将会将您发布的活动链接群发给好友即完成任务</view>
         </view>
-    </view>
-    <view class="send-item">
+    </navigator>
+    <navigator  url="/pages/sendTask/sendDownTask"  class="send-item">
         <image src="/assets/images/icon-down.png" />
         <view>
             <view class="title">APP下载任务</view>
             <view class="con">该任务参与者将会将您发布的APP下载链接下载APP并注册即完成任务</view>
         </view>
-    </view>
+    </navigator>
 </view>
 <view class="send-btn">
     <navigator url="/pages/sendTask/mySend">我的发布</navigator>
-    <navigator url="">待审核</navigator>    
+    <navigator url="/pages/sendTask/mySend">待审核</navigator>    
 </view>
